@@ -62,7 +62,25 @@
    --> GUID does not match expected GUID, taking It nevertheless. successfully obtained "Setup" variable from Vss (got 6 (0x6) bytes). error: offset is out of range..
    ```
 
-7. 重启电脑，enjoy it
+7. 重启电脑，进入PVE，sudo 或者 su 提权到root权限，打开终端
+
+   ```shell
+   vi /etc/default/grub
+   或者
+   vim /etc/default/grub
+   或者 
+   nano /etc/default/grub
+   
+   将
+   GRUB_CMDLINE_LINUX_DEFAULT="quiet"
+   改为
+   GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"
+   
+   ```
+
+   重启机器，享受生活。 Enjoy It
+
+
 
 
 
