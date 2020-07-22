@@ -6,3 +6,7 @@ Resources of acute angle htpc.
   
 - [基础版](https://github.com/Cyberpunk2177/AcuteAngle/blob/master/enable-vt-d-simple.md)
   需要一个U盘作为启动项
+
+
+
+如有需要或者反馈请开issue
