@@ -41,7 +41,7 @@
 6. 此时在命令行输入
 
    ```shell
-   setup_var 0x49 0x01 
+   setup_var_3 0x49 0x01 
    ```
 
    然后回车，此时如果正常会显示
@@ -58,8 +58,7 @@
    --> GUID does not match expected GUID, taking it nevertheless... expected a different size of the Setup variable (got 1453 (0x5ad) bytes). Continue with care. successfully obtained "Setup" variable from ss (got 1453 (0x5ad) bytes). offset Ox49 is: Ox00
    
    setting offset Ox49 to Ox01 var name: Setup, var size: 12, var guid: 80e1202e-2697-4264 - 9c-c9-80-
-   
-   --> GUID does not match expected GUID, taking It nevertheless. successfully obtained "Setup" variable from Vss (got 6 (0x6) bytes). error: offset is out of range..
+  
    ```
 
 7. 重启电脑，进入PVE，sudo 或者 su 提权到root权限，打开终端
