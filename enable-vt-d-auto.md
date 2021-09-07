@@ -70,4 +70,4 @@ root@pve:~# dmesg |grep DMAR
 
 ## 作者
 
-- @YadominJinta
+- [@YadominJinta](https://github.com/YadominJinta)
