@@ -20,4 +20,4 @@ updated:
 开到最大值512M的操作：
 setup_var_3 0x107 0x03
 
-键盘云锐角云通用，给有需要的人参考 Via @iscodeeasyornot
+键盘云锐角云通用，给有需要的人参考 Via [@iscodeeasyornot](https://github.com/iscodeeasyornot)
